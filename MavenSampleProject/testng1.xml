@@ -1,0 +1,63 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" verbose="1" >
+<test name="caloriecal testcase Suite">
+    <classes>      
+      <class name="testngPack.AutoITExample"/>
+    </classes>
+</test>
+  <!-- <test name="caloriecal testcase Suite">
+    <classes>      
+      <class name="com.caloriecalc.testcases.CalorieCalcPageExcelTestCaseConfig"/>
+      <class name="com.caloriecalc.testcases.CalorieCalcPageHTTestCase"/>
+      <class name="com.caloriecalc.testcases.CalorieCalcPageTestCase"/>
+    </classes>
+  </test> -->
+  <!-- <test name="Launch Suite">
+    <classes>
+      <class name="Launch.ChromeDriverDemo"/>
+      <class name="Launch.FirefoxDriver37Demo"/>
+      <class name="Launch.FirefoxDriver53Demo"/>
+      <class name="Launch.IEDriverDemo"/>
+      <class name="Launch.LaunchBrowser"/>
+    </classes>
+  </test> -->
+
+   <!-- <test name="Launch Locate Suite">
+    <classes>
+      <class name="Launch_Locate.ChangeDropDownValues"/>
+      <class name="Launch_Locate.ExtractWebTable"/>
+      <class name="Launch_Locate.LaunchBrowser"/>
+      <class name="Launch_Locate.LocateByPatternMatch"/>
+      <class name="Launch_Locate.LocateElements"/>
+    </classes>
+  </test> -->
+  <!-- <test name="Locate Suite">
+    <classes>
+      <class name="Locate.LocateByLinkText"/>
+      <class name="Locate.LocateElementByClassTagName"/>
+      <class name="Locate.LocateElementByCssSelector"/>
+      <class name="Locate.LocateElementByExample"/>
+      <class name="Locate.LocateElements"/>
+      <class name="Locate.LocateByLinkXpath"/>
+    </classes>
+  </test> -->
+
+  <!-- <test name="testngPack Suite">
+    <classes>
+      <class name="testngPack.CalorieCalcTest"/>
+      <class name="testngPack.CalorieCalcTest2"/>
+      <class name="testngPack.captureScreenshot"/>
+      <class name="testngPack.CompositeMouseOps"/>
+      <class name="testngPack.Handle_drap_drop_frame"/>
+      <class name="testngPack.HandleAjaxSuggestion"/>
+      <class name="testngPack.HandlePopups"/>
+      <class name="testngPack.MouseOps"/>
+      <class name="testngPack.PageNavigation"/>
+      <class name="testngPack.TestNGExample"/>
+      <class name="testngPack.TestNGExample2"/>
+      <class name="testngPack.WindowNav"/>
+      <class name="testngPack.WindowNavigation"/>
+    </classes>
+  </test>  -->
+</suite>

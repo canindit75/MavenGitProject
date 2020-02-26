@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+ <suite name="Sample Suite" verbose="1" >
+<test name="Testing with Jenkins">
+    <classes>      
+      <class name="testngPack.JenkinsDemo"/>
+    </classes>
+</test>
+</suite>
